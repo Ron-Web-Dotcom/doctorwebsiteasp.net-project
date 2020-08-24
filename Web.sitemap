@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="admin.aspx" title="Admin"  description="">
+        <siteMapNode url="Ann-Marie Ingle.aspx" title="Ann-Marie"  description="" />
+        <siteMapNode url="AppointmentForm.aspx" title="AppointmentForm"  description="" />
+    <siteMapNode url="Cardiology.aspx" title="Cardiology"  description="" />
+<siteMapNode url="ContactForm.aspx" title="ContactForm"  description="" />
+<siteMapNode url="Directors.aspx" title="Directors"  description="" />
+<siteMapNode url="Evelyn Barker.aspx" title="E"  description="" />
+    <siteMapNode url="AppointmentForm.aspx" title="AppointmentForm"  description="" />
+    </siteMapNode>
+</siteMap>

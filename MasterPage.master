@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale-=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <title>Portmore Medical Center</title>
+   <!-- <link rel="stylesheet"  type="text/css" href="~/Styles/MainPageStyleSheet.css"/>-->
+    <style type="text/css">
+        .auto-style1 {
+            height: 228px;
+        }
+    </style>
+   
+    <%--<script>
+        $(document).ready(function () {
+            //Activate Carousel
+            $("#myCarousel").carousel({ interval: 500 });
+            //Enable Carousel Indicators
+            $(".item1").click(function () {
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function () {
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function () {
+                $("#myCarousel").carousel(2);
+            });
+            $(".item4").click(function () {
+                $("#myCarousel").carousel(3);
+            });
+            $(".item5").click(function () {
+                $("#myCarousel").carousel(4);
+            });
+            $(".item6").click(function () {
+                $("#myCarousel").carousel(5);
+            });
+            //Enable Carousel Controls
+            $(".left").click(function () {
+                $("#myCarousel").carousel("prev");
+            });
+            $(".right").click(function () {
+                $("#myCarousel").carousel("next");
+            });
+        });
+    </script>--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="wrapper"></div>
+     <div>
+       
+<div id ="banner">
+    <div>
+     
+
+</div>
+         <div class="navbar navbar-default" role="navigation">
+             <div class="container">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         </button>
+                  <a class="navbar-brand" href="MasterPage.master"><span><img src="images/Health-Sign-blue-icon.png" width="30" height="30" /> </span>Portmore Medical Center</a>
+                 </div>
+                 <div class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav navbar-right">
+                         <li><a href="HomePage.aspx">Home</a></li>
+                       <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                         <ul class="dropdown-menu">
+                             <li class="dropdown-header">Overview</li>
+                             <li><a href="Vision Mission.aspx">Vision | Mission</a></li>
+                             <li><a href="Directors.aspx">Directors</a></li>
+                         </ul>
+                         </li>
+                           <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                         <ul class="dropdown-menu">
+                             <%--<li class="dropdown-header"></li>--%>
+                             <li><a href="Cardiology.aspx">Cardiology</a></li>
+                             <li><a href="GeneralPractitionersaspx.aspx">General Practitioner</a></li>
+                             <li><a href="Gynaecology.aspx">Gynaecology</a></li>
+                             <li><a href="Opticology.aspx">Opticology</a></li>
+                             <li><a href="Paediatrician.aspx">Paediatrician</a></li>
+                             <li><a href="Radiology.aspx">Radiology</a></li> 
+                             <li><a href="Surgeon.aspx">Surgeon</a></li>
+                         </ul>
+                         </li>
+                          <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bio<b class="caret"></b></a>
+                         <ul class="dropdown-menu">
+                             <%--<li class="dropdown-header"></li>--%>
+                             <li><a href="StaffMembers.aspx">Staff Members</a></li>
+                               <li><a href="Facilites.aspx">Facilities</a></li>
+                               </ul>
+                         </li>
+                           <a href="admin.aspx" title="..." target="_blank"><img src="images/User-Administrator-Blue-icon.png"width="2" height="2"></a>
+                           <a href="AdminSignUpaspx.aspx" title="..." target="_blank"><img src="images/User-Administrator-Blue-icon.png"width="2" height="2"></a>
+                        <asp:LinkButton ID="LinkButton1" runat="server"><a href="SignIn2.aspx">Sign In</a></asp:LinkButton>
+
+                        <asp:LinkButton ID="LinkButton2" runat="server"><a href="SignUp.aspx">Sign Up</a></asp:LinkButton>
+                        </ul>
+
+                 </div>
+             </div>
+    </div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>   
+      </div>
+
+    </form>
+</body>
+</html>
